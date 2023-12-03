@@ -79,3 +79,24 @@ section li {
     top: 0;
     left: -100px;
 }
+.heart{
+  position:relative;
+  width:50px;
+  height:75px;
+  border:1px solid black;
+  border-radius:100px 100px 0 0;
+  transform:rotate(45deg);
+  background-color:IndianRed;
+  margin-left:50px;
+}
+.heart1{
+  position:absolute;
+  width:50px;
+  height:75px;
+  border:1px solid black;
+  border-radius:100px 100px 0 0;
+  transform:rotate(315deg);
+  background-color:IndianRed;
+  margin-left:32px;
+  margin-top:-77px;
+}

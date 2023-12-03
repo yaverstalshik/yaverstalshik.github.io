@@ -53,3 +53,29 @@ section li {
   margin-bottom: 10px;
 }
 
+.heart {
+    width: 200px; // ширина
+    height: 200px; // высота
+    background-color: red; // цвет
+    transform: rotate(45deg);
+    position: relative; // установим родителя
+}
+
+ .heart::before,
+.heart::after {
+    content : ''; // обязательное свойство
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; // закругление радиуса
+    position: absolute;
+}
+.heart::before {
+    top: -100px;
+    left: 0;
+}
+.heart::after {
+    top: 0;
+    left: -100px;
+}
